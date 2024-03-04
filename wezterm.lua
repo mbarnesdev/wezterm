@@ -16,7 +16,7 @@ config.color_scheme = color_scheme
 config.background = {
 	{
 		source = {
-			File = "/home/mbarnesdev/Pictures/wezterm/background.jpeg",
+			File = os.getenv("HOME") .. "/.config/wezterm/background.jpeg",
 		},
 		hsb = {
 			brightness = 0.15,
